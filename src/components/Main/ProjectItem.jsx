@@ -3,9 +3,9 @@ import CALCULATOR from "../../assets/images/calculator.webp"
 import CVGENERATOR from "../../assets/images/cvgenerator.webp"
 import ETCHASKETCH from "../../assets/images/etchasketch.webp"
 import FREEMARKET from "../../assets/images/freemarket.webp"
-import MEMORYCARD from "../../assets/images/MEMORYCARD.webp"
+import MEMORYCARD from "../../assets/images/memorycard.webp"
 import SIGNUP from "../../assets/images/signup.webp"
-import WEATHER from "../../assets/images/WEATHER.webp"
+import WEATHER from "../../assets/images/weather.webp"
 
 export default function ProjectItem({project}) {
 
