@@ -28,7 +28,7 @@ import './style/l-skills.css'
 import './style/l-contact.css'
 
 // Styles: dark mode
-import './Style/dark-mode.css'
+import './style/dark-mode.css'
 
 function App() {
 
