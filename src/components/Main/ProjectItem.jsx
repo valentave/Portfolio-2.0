@@ -13,7 +13,15 @@ export default function ProjectItem({project}) {
         <div className={"projects__item " + project.position}>
             <div className='presentation-container'>
                 <h3 className="projects__title">{project.title}</h3>
-                <img src={"src/assets/images/" + project.image} alt={project.title} className='projects-image'/>
+                <img src={
+                    project.title == "Weather App" ? WEATHER :
+                    project.title == "Sign-up Page" ? SIGNUP : 
+                    project.title == "Calculator" ? CALCULATOR :
+                    project.title == "Etch-a-Sketch" ? ETCHASKETCH :
+                    project.title == "CV Generator" ? CVGENERATOR :
+                    project.title == "Pokémon Memory Card" ? MEMORYCARD :
+                    project.title == "Free Market" ? FREEMARKET : ""
+                } alt={project.title} className='projects-image'/>
             </div>
             <div className='infor-container'>
                 <div className='project-technologies'>
