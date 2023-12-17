@@ -1,0 +1,17 @@
+@media (min-width: 769px) {
+    .profile-container {
+        display: grid;
+        grid-template-rows: 1fr 10fr;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 75px;
+    }
+
+    .profile-title {
+        grid-column: 1 / span 2;
+        text-align: center;
+    }
+
+    .aboutme-text strong {
+        color: var(--blue);
+    }
+}

@@ -1,0 +1,15 @@
+.dark-mode, 
+.dark-mode p, 
+.dark-mode .nav, 
+.dark-mode .nav-item {
+    background: #000019;
+    color: #fff;
+}
+
+.dark-mode svg {
+    fill: #fff;
+}
+
+.dark-mode .header {
+    background: rgba(0,0,25,0.55);
+}

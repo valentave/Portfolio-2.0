@@ -1,0 +1,47 @@
+.main__skills {
+    padding: 63px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.skills-title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.languages-section,
+.tools-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.languages-title,
+.tools-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.languages-container,
+.tools-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.languages-item,
+.tools-item {
+    padding: 5px;
+}
+
+.language-svg,
+.tool-svg {
+    width: 64px;
+}

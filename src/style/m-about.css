@@ -1,0 +1,9 @@
+@media (min-width: 426px) {
+    .profile-container {
+        gap: 25px;
+    }
+
+    .aboutme-text {
+        text-align: center;
+    }
+}

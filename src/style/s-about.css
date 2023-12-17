@@ -1,0 +1,64 @@
+/* General Main */
+
+.main__about {
+    padding: 63px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/* Profile */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.profile-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.profile-img {
+    background: var(--light-blue);
+    border-radius: 57% 43% 67% 33% / 47% 66% 34% 53%;
+    width: 90vw;
+    min-height: 380px;
+    max-height: 50vh;
+    max-width: 290px;
+    object-fit: cover;
+}
+
+.profile-bold {
+    font-weight: 700;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* About */
+
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.aboutme-title {
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

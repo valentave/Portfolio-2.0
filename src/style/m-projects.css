@@ -1,0 +1,9 @@
+@media (min-width: 426px) {
+    .projects__item {
+        max-width: 500px;
+    }
+
+    .projects-image {
+        width: 90%;
+    }
+}

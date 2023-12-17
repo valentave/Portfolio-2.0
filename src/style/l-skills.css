@@ -1,0 +1,12 @@
+@media (min-width: 769px) {
+    .languages-section,
+    .tools-section {
+        padding: 20px;
+    }
+
+    .languages-container,
+    .tools-container {
+        column-gap: 30px;
+        max-width: 769px;
+    }
+}

@@ -1,0 +1,33 @@
+@media (min-width: 769px) {
+    .networks-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .link-linkedin::after {
+        content: "Linkedin";
+    }
+
+    .link-github::after {
+        content: "GitHub";
+    }
+
+    .link-email::after {
+        content: "Email";
+    }
+
+    .link-instagram::after {
+        content: "Instagram";
+    }
+
+    .link-telegram::after {
+        content: "Telegram";
+    }
+
+    .link-telegram::after:hover {
+        transform: scale(2);
+    }
+}

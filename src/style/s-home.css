@@ -1,0 +1,23 @@
+.main__home {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+    padding-top: 10vh;
+    gap: 15px;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 1.5rem;
+}
+
+.home-link {
+    background: var(--blue);
+    color: #fff;
+    padding: 1ch;
+    border-radius: 10px;
+    text-decoration: none;
+}

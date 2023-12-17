@@ -1,0 +1,18 @@
+@media (min-width: 769px) {
+    .main__home {
+        gap: 30px;
+    }
+    
+    .home-title {
+        font-size: 2.5rem;
+    }
+
+    .home-presentation {
+        max-width: 768px;
+    }
+
+    .home-link {
+        padding: 0.9ch 1.7ch;
+        font-size: 1.2rem;
+    }
+}

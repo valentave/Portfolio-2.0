@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Weather App",
+    "image": "weather.webp",
+    "description": "A simple and intuitive web application for checking weather information using the WeatherAPI.com API.",
+    "repository": "https://github.com/valentave/Weather-App",
+    "livePreview": "https://valentave.github.io/Weather-App",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API"
+    ]
+  },
+  {
+    "title": "Sign-up Page",
+    "image": "signup.webp",
+    "description": "A user-friendly registration web page with input validation. It includes custom error messages and password confirmation validation.",
+    "repository": "https://github.com/valentave/Sign-Up-page",
+    "livePreview": "https://valentave.github.io/Sign-Up-page",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Calculator",
+    "image": "calculator.webp",
+    "description": "A simple and functional calculator implemented using HTML, CSS, and JavaScript. Supports basic arithmetic operations and keyboard input.",
+    "repository": "https://github.com/valentave/Calculator",
+    "livePreview": "https://valentave.github.io/Calculator",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Etch-a-Sketch",
+    "image": "etchasketch.webp",
+    "description": "A web project that simulates a digital \"Etch-a-Sketch.\" Explore your creativity and draw using different tools and options.",
+    "repository": "https://github.com/valentave/Etch-a-Sketch",
+    "livePreview": "https://valentave.github.io/Etch-a-Sketch",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "CV Generator",
+    "image": "cvgenerator.webp",
+    "description": "A web application that allows you to easily create and customize your curriculum vitae (CV).",
+    "repository": "https://github.com/valentave/CV-Generator",
+    "livePreview": "https://cv-generator-taupe.vercel.app/",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js"
+    ]
+  },
+  {
+    "title": "Pokémon Memory Card",
+    "image": "memorycard.webp",
+    "description": "Test your memory and cognitive skills by clicking cards while making sure you never select the same card twice.",
+    "repository": "https://github.com/valentave/memory-card",
+    "livePreview": "https://memory-cards-game-nine.vercel.app",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API",
+      "React.js"
+    ]
+  },
+  {
+    "title": "Free Market",
+    "image": "freemarket.webp",
+    "description": "This is a project for educational purposes that consisted of developing an e-commerce.",
+    "repository": "https://github.com/valentave/E-Commerce-App",
+    "livePreview": "https://e-commerce-app-valentaves-projects.vercel.app",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API",
+      "React.js"
+    ]
+  }
+]
