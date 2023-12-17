@@ -1,4 +1,11 @@
 import PropTypes from 'prop-types'
+import CALCULATOR from "../../assets/images/calculator.webp"
+import CVGENERATOR from "../../assets/images/cvgenerator.webp"
+import ETCHASKETCH from "../../assets/images/etchasketch.webp"
+import FREEMARKET from "../../assets/images/freemarket.webp"
+import MEMORYCARD from "../../assets/images/MEMORYCARD.webp"
+import SIGNUP from "../../assets/images/signup.webp"
+import WEATHER from "../../assets/images/WEATHER.webp"
 
 export default function ProjectItem({project}) {
 

@@ -1,4 +1,4 @@
-import ProfilePictue from '../../assets/images/profile.webp'
+import ProfilePicture from '../../assets/images/profile.webp'
 
 export default function About() {
     
@@ -7,7 +7,7 @@ export default function About() {
             <h1 className="about-title">About</h1>
             <div className="profile-container">
                 <h2 className="profile-title">Profile</h2>
-                <img src={ProfilePictue} alt="Profile picture of Valentín Taverna" className="profile-img" />
+                <img src={ProfilePicture} alt="Profile picture of Valentín Taverna" className="profile-img" />
                 <div className="profile-info">
                     <p className="profile-name">
                         <span className="profile-bold">Name:</span> Valentín Andrés Taverna
