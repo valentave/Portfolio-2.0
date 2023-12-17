@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Network from "./Network";
+import CONTACT from "../../data/networks.json"
 
 export default function Contact() {
     let [networks, setNetworks] = useState([]);
 
     useEffect(() => {
-        fetch("/src/data/networks.json")
-            .then((res) => res.json())
-            .then(res => setNetworks(res.sort((a, b) => a.name.localeCompare(b.name))));
+        setNetworks(CONTACT)
     }, [])
 
     return(

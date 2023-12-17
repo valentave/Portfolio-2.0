@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 import { useState } from "react"
 import ProjectItem from "./ProjectItem";
+import PROJECTS from "../../data/projects.json"
 
 export default function Projects() {
     let [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch("/src/data/projects.json")
-            .then((res) => res.json())
-            .then((res) => setProjects(res));
+        setProjects(PROJECTS)
     }, [])
 
     return(

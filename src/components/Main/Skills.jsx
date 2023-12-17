@@ -1,19 +1,16 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import SkillItem from "./SkillItem"
+import LANGUAGES from "../../data/languages.json"
+import TOOLS from "../../data/tools.json"
 
 export default function Skills() {
     let [languages, setLanguages] = useState([])
     let [tools, setTools] = useState([])
 
     useEffect(() => {
-        fetch("/src/data/languages.json")
-            .then(res => res.json())
-            .then(res => setLanguages(res.sort((a, b) => a.title.localeCompare(b.title))));
-
-        fetch("/src/data/tools.json")
-            .then(res => res.json())
-            .then(res => setTools(res.sort((a, b) => a.title.localeCompare(b.title))));
+        setLanguages(LANGUAGES)
+        setTools(TOOLS)
     }, [])
 
     return(
