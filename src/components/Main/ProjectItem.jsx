@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 export default function ProjectItem({project}) {
 
     return(
-        <div className={"projects__item " + project.position}>
+        <div className={"projects__item "}>
             <div className='presentation-container'>
                 <h3 className="projects__title">{project.title}</h3>
                 <img src={`/images/${project.image}`} alt={project.title} className='projects-image'/>
