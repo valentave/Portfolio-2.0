@@ -1,0 +1,7 @@
+@media (width >= 769px) {
+    .projects-container {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+}

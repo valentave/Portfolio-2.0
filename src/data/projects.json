@@ -9,7 +9,8 @@
       "CSS",
       "JavaScript",
       "API"
-    ]
+    ],
+    "image": "weather.webp"
   },
   {
     "title": "Sign-up Page",
@@ -20,7 +21,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "image": "signup.webp"
   },
   {
     "title": "Calculator",
@@ -31,7 +33,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "image": "calculator.webp"
   },
   {
     "title": "Etch-a-Sketch",
@@ -42,7 +45,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "image": "etchasketch.webp"
   },
   {
     "title": "CV Generator",
@@ -54,7 +58,8 @@
       "CSS",
       "JavaScript",
       "React.js"
-    ]
+    ],
+    "image": "cvgenerator.webp"
   },
   {
     "title": "Pokémon Memory Card",
@@ -67,7 +72,8 @@
       "JavaScript",
       "API",
       "React.js"
-    ]
+    ],
+    "image": "memorycard.webp"
   },
   {
     "title": "Free Market",
@@ -80,6 +86,19 @@
       "JavaScript",
       "API",
       "React.js"
-    ]
+    ],
+    "image": "freemarket.webp"
+  },
+  {
+    "title": "Miscrits stats calculator",
+    "description": "This is an interactive app to calculate statistics for the game \"Miscrits\".",
+    "repository": "https://github.com/valentave/miscrits-calculator",
+    "livePreview": "https://miscrits-calculator.vercel.app",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "React.js"
+    ],
+    "image": "miscritscalculator.webp"
   }
 ]

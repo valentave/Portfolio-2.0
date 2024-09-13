@@ -1,11 +1,4 @@
 import PropTypes from 'prop-types'
-import CALCULATOR from "../../assets/images/calculator.webp"
-import CVGENERATOR from "../../assets/images/cvgenerator.webp"
-import ETCHASKETCH from "../../assets/images/etchasketch.webp"
-import FREEMARKET from "../../assets/images/freemarket.webp"
-import MEMORYCARD from "../../assets/images/memorycard.webp"
-import SIGNUP from "../../assets/images/signup.webp"
-import WEATHER from "../../assets/images/weather.webp"
 
 export default function ProjectItem({project}) {
 
@@ -13,15 +6,7 @@ export default function ProjectItem({project}) {
         <div className={"projects__item " + project.position}>
             <div className='presentation-container'>
                 <h3 className="projects__title">{project.title}</h3>
-                <img src={
-                    project.title == "Weather App" ? WEATHER :
-                    project.title == "Sign-up Page" ? SIGNUP : 
-                    project.title == "Calculator" ? CALCULATOR :
-                    project.title == "Etch-a-Sketch" ? ETCHASKETCH :
-                    project.title == "CV Generator" ? CVGENERATOR :
-                    project.title == "Pokémon Memory Card" ? MEMORYCARD :
-                    project.title == "Free Market" ? FREEMARKET : ""
-                } alt={project.title} className='projects-image'/>
+                <img src={`/images/${project.image}`} alt={project.title} className='projects-image'/>
             </div>
             <div className='infor-container'>
                 <div className='project-technologies'>

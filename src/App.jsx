@@ -25,6 +25,7 @@ import './style/l-header.css'
 import './style/l-home.css'
 import './style/l-about.css'
 import './style/l-skills.css'
+import './style/l-projects.css'
 import './style/l-contact.css'
 
 // Styles: dark mode
